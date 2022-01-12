@@ -3,3 +3,4 @@ install:
   - chmod +x sourceguard-cli
 script:
   - ./sourceguard-cli -s $(pwd)
+
