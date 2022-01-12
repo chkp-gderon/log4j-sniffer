@@ -1,5 +1,5 @@
 install:
-  - wget https://storage.googleapis.com/release-cli-prod/v0.0.210/linux/amd64/sourceguard-cli
+  - wget https://storage.googleapis.com/release-cli-prod/v0.0.233/linux/amd64/sourceguard-cli
   - chmod +x sourceguard-cli
 script:
   - ./sourceguard-cli -s $(pwd)
